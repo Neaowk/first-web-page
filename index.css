@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(225, 222, 222);
+    font-family: 'Playfair Display', serif;
+    margin: 1em 2em;
+
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+#pfp {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.my-info p {
+    margin-top: 0.75em;
+}
+
+.books ul,
+.books li {
+    margin: 0.5em 0;
+}
+
+.workexp table {
+    width: 40%;
+    border-collapse: collapse;
+    margin: 1rem 0;
+}
+
+.workexp th, .workexp td {
+    text-align: center;
+    padding: 0.75em;
+}
+
+.workexp tbody tr {
+    width: 50%;
+}
+
+.workexp tbody tr:last-child {
+    border-bottom: none;
+}
+
+.skillsAndhobbies {
+    width: 50%;
+    text-align: center;
+}
+
+.skillsAndhobbies table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: .5rem 0;
+}
+
+.skillsAndhobbies th, .skillsAndhobbies td {
+    padding: .5em;
+    text-align: center;
+}
+
+.skillsAndhobbies thead th {
+    width: auto;
+}
+
+.footer {
+    gap: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-social-handles {
+    width: 20%;
+    height: auto;
+}
+
+.my-social-handles ul li {
+    padding: .5em;
+}
+
+.more-about-me {
+    width: 20%;
+    height: auto;
+}
+
+.more-about-me ul li {
+    padding: .5em;
+}
+
+.comments-section {
+    display: flex;
+    flex-direction: column;
+    width: 35%;
+    height: auto;
+    margin: 20px 0;
+    left: 0;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+.comments-section textarea {
+    width: 100%;
+    height: 8em;
+    margin: .5em auto;
+    border-radius: 2px;
+    border: 2px solid rgb(204, 204, 204);
+}
+
+.comments-section input, button {
+    margin: .5em 0;
+    padding: .25em;
+    border-radius: 2px;
+    border: 2px solid rgb(212, 208, 208);
+}
+
+hr {
+    margin: 2rem 0;
+}
